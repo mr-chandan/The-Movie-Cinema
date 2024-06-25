@@ -84,19 +84,6 @@ def populate_matches():
 
     return render_template('recommend.html',movie_cards=movie_cards)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @app.route("/recommend",methods=["POST"])
 def recommend():
     # getting data from AJAX request
